@@ -1,6 +1,6 @@
-; biome - a minimal, readable BIOS
+; biossom - a minimal, readable BIOS
 ; boot sector: loaded at 0000:7C00 by the BIOS, 512 bytes, ends in 0xAA55.
-; Milestone 1: print "biome" to VGA (int 10h) and serial (COM1).
+; Milestone 1: print "biossom" to VGA (int 10h) and serial (COM1).
 
 BITS 16
 ORG 0x7C00
@@ -74,7 +74,7 @@ serial_putc:
     out dx, al
     ret
 
-msg db "biome", 13, 10, 0
+msg db "biossom", 13, 10, 0
 
     times 510-($-$$) db 0
     dw 0xAA55               ; boot signature

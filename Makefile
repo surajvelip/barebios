@@ -1,7 +1,7 @@
 NASM   ?= nasm
 QEMU   ?= qemu-system-i386
 BUILD  := build
-IMG    := $(BUILD)/biome.img
+IMG    := $(BUILD)/biossom.img
 
 all: $(IMG)
 

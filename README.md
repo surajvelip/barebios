@@ -1,4 +1,4 @@
-# biome
+# biossom
 
 A minimal, readable BIOS. Small enough for one person to read end to end.
 
@@ -16,11 +16,11 @@ A minimal, readable BIOS. Small enough for one person to read end to end.
 Requires `nasm` and `qemu-system-i386` (or `qemu-system-x86_64`, set `QEMU=`).
 
 ```
-make        # builds build/biome.img
+make        # builds build/biossom.img
 make run    # boots it in QEMU
 ```
 
-You should see `biome` printed on the emulated screen.
+You should see `biossom` printed on the emulated screen.
 
 ## Layout
 
