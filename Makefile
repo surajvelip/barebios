@@ -1,7 +1,7 @@
 NASM   ?= nasm
 QEMU   ?= qemu-system-i386
 BUILD  := build
-IMG    := $(BUILD)/biossom.img
+IMG    := $(BUILD)/barebios.img
 
 all: $(IMG)
 
