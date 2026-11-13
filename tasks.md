@@ -9,7 +9,7 @@ Done: [x]  In progress: [/]  Blocked: [!]
 - [x] Makefile: `make`, `make run`, `make run-serial`
 - [x] docs/ chapters (local-only, gitignored)
 
-## Milestone 2 — interactive (done 2026-11-14)
+## Milestone 2 — interactive (serial half done 2026-11-14)
 
 - [x] Stage 2 loader: int 13h disk reads, jump past the 512-byte wall
 - [x] Serial command prompt: read line, parse, dispatch
