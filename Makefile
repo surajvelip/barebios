@@ -14,9 +14,9 @@ $(BUILD):
 run: $(IMG)
 	$(QEMU) -drive format=raw,file=$(IMG) -no-reboot
 
-# headless run for CI/testing: serial output, exit on ctrl-a x
+# headless run: serial (COM1) output only, in this terminal
 run-serial: $(IMG)
-	$(QEMU) -drive format=raw,file=$(IMG) -nographic -serial mon:stdio
+	$(QEMU) -drive format=raw,file=$(IMG) -display none -serial stdio
 
 clean:
 	rm -rf $(BUILD)
