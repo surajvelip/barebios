@@ -9,11 +9,11 @@ Done: [x]  In progress: [/]  Blocked: [!]
 - [x] Makefile: `make`, `make run`, `make run-serial`
 - [x] docs/ chapters (local-only, gitignored)
 
-## Milestone 2 — interactive (next)
+## Milestone 2 — interactive (done 2026-11-14)
 
-- [ ] Stage 2 loader: int 13h disk reads, jump past the 512-byte wall
-- [ ] Serial command prompt: read line, parse, dispatch
-- [ ] First commands: help, echo, dump <addr>, reboot
+- [x] Stage 2 loader: int 13h disk reads, jump past the 512-byte wall
+- [x] Serial command prompt: read line, parse, dispatch
+- [x] Commands: help, version, echo, dump <hexaddr>, clear, reboot
 - [ ] int 16h keyboard input (VGA-side prompt too)
 
 ## Milestone 3 — programmable preboot
